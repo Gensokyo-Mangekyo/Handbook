@@ -1,0 +1,99 @@
+﻿body {
+    background: #121212
+}
+
+#logo {
+    width: 320px;
+    height: 50px;
+    flex-grow: 1;
+    font-size: 14px;
+    margin-left: 3px;
+    font-weight: bold;
+    padding-left: 60px;
+    margin-bottom: 12px;
+    color: whitesmoke;
+    font-family: "Balthazar";
+}
+
+    #logo a {
+        letter-spacing: 5px;
+    }
+    #logo img {
+        float: left;
+        max-width: 30px;
+
+    }
+
+
+#logo a, #logo a:visited {
+    color: whitesmoke;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#logo a {
+    color: whitesmoke;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+    #logo a:visited {
+        color: whitesmoke;
+    }
+
+#header {
+    display: flex;
+}
+
+.menu-button-theme {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    padding: 0 10px;
+    line-height: 30px;
+}
+
+    .menu-button-theme:checked {
+        background: #22202f;
+        color: #fff;
+    }
+
+
+.horizontal-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .horizontal-list li {
+        margin: 0 10px;
+    }
+
+        .horizontal-list li button {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            color: #333;
+            padding: 10px 30px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease-in-out;
+        }
+
+            .horizontal-list li button:hover {
+                background-color: #333;
+                color: #fff;
+                cursor: pointer;
+            }
+
+
+

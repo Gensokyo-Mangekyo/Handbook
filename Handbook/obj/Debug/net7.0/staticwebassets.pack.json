@@ -1,0 +1,85 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Администратор\\Desktop\\C#\\Asp.Net\\Handbook\\Handbook\\wwwroot\\css\\Article2.css",
+      "PackagePath": "staticwebassets\\css\\Article2.css"
+    },
+    {
+      "Id": "C:\\Users\\Администратор\\Desktop\\C#\\Asp.Net\\Handbook\\Handbook\\wwwroot\\css\\Catalog2.css",
+      "PackagePath": "staticwebassets\\css\\Catalog2.css"
+    },
+    {
+      "Id": "C:\\Users\\Администратор\\Desktop\\C#\\Asp.Net\\Handbook\\Handbook\\wwwroot\\css\\Main.css",
+      "PackagePath": "staticwebassets\\css\\Main.css"
+    },
+    {
+      "Id": "C:\\Users\\Администратор\\Desktop\\C#\\Asp.Net\\Handbook\\Handbook\\wwwroot\\css\\form2.css",
+      "PackagePath": "staticwebassets\\css\\form2.css"
+    },
+    {
+      "Id": "C:\\Users\\Администратор\\Desktop\\C#\\Asp.Net\\Handbook\\Handbook\\wwwroot\\images\\1960213.jpg",
+      "PackagePath": "staticwebassets\\images\\1960213.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Администратор\\Desktop\\C#\\Asp.Net\\Handbook\\Handbook\\wwwroot\\images\\LineA.png",
+      "PackagePath": "staticwebassets\\images\\LineA.png"
+    },
+    {
+      "Id": "C:\\Users\\Администратор\\Desktop\\C#\\Asp.Net\\Handbook\\Handbook\\wwwroot\\images\\LineB.png",
+      "PackagePath": "staticwebassets\\images\\LineB.png"
+    },
+    {
+      "Id": "C:\\Users\\Администратор\\Desktop\\C#\\Asp.Net\\Handbook\\Handbook\\wwwroot\\images\\LineC.png",
+      "PackagePath": "staticwebassets\\images\\LineC.png"
+    },
+    {
+      "Id": "C:\\Users\\Администратор\\Desktop\\C#\\Asp.Net\\Handbook\\Handbook\\wwwroot\\images\\Rgb.jpeg",
+      "PackagePath": "staticwebassets\\images\\Rgb.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Администратор\\Desktop\\C#\\Asp.Net\\Handbook\\Handbook\\wwwroot\\images\\Th_135_yinyang.png",
+      "PackagePath": "staticwebassets\\images\\Th_135_yinyang.png"
+    },
+    {
+      "Id": "C:\\Users\\Администратор\\Desktop\\C#\\Asp.Net\\Handbook\\Handbook\\wwwroot\\images\\skillbox1.PNG",
+      "PackagePath": "staticwebassets\\images\\skillbox1.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Администратор\\Desktop\\C#\\Asp.Net\\Handbook\\Handbook\\wwwroot\\images\\skillbox2.png",
+      "PackagePath": "staticwebassets\\images\\skillbox2.png"
+    },
+    {
+      "Id": "C:\\Users\\Администратор\\Desktop\\C#\\Asp.Net\\Handbook\\Handbook\\wwwroot\\images\\slide-1.jpg",
+      "PackagePath": "staticwebassets\\images\\slide-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Администратор\\Desktop\\C#\\Asp.Net\\Handbook\\Handbook\\wwwroot\\images\\slide-13.jpg",
+      "PackagePath": "staticwebassets\\images\\slide-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Администратор\\Desktop\\C#\\Asp.Net\\Handbook\\Handbook\\wwwroot\\images\\slide-26.jpg",
+      "PackagePath": "staticwebassets\\images\\slide-26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Администратор\\Desktop\\C#\\Asp.Net\\Handbook\\Handbook\\wwwroot\\scripts\\HorizontalList.js",
+      "PackagePath": "staticwebassets\\scripts\\HorizontalList.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Handbook.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Handbook.props",
+      "PackagePath": "build\\Handbook.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Handbook.props",
+      "PackagePath": "buildMultiTargeting\\Handbook.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Handbook.props",
+      "PackagePath": "buildTransitive\\Handbook.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

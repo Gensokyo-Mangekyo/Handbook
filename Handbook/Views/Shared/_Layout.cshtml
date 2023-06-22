@@ -1,0 +1,41 @@
+﻿@using Handbook.Models;
+@inject ApplicationContext db;
+<!doctype html>
+<html>
+<head>
+    <title>Hakurei</title>
+     <link href="/css/Main.css" rel="stylesheet" />
+     <link href="/css/Catalog2.css" rel="stylesheet" />
+     <link href="/css/Article2.css" rel="stylesheet"/>
+     <link href="/css/form2.css" rel="stylesheet"/>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <div id = "logo">
+            <img src="/images/Th_135_yinyang.png"/>
+            <a title='На главную' href='/'>Hakurei</a>
+            <div>Cправочник по информатике</div>
+            <form style="margin-top: 5px"  method="post" action="/GetArticles" > 
+           <input type="search" name="SearchName"/>
+            <button  type="submit">Поиск</button>
+            </form>
+       </div> 
+       <div >     
+           <ul class="horizontal-list">
+                        @foreach (var item in db.Catalogs) {
+              <li>
+                   
+                                       <form  method="get" action="/GetCatalog" > 
+                                            <input type="hidden" name="id" value="@item.CatalogId">
+                               <button  type="submit">@item.Name</button>
+                               </form>
+      
+                  
+              </li>  
+                        }
+           </ul>
+
+       </div>
+    @RenderBody()
+</body>
+</html>

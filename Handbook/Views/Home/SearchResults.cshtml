@@ -1,0 +1,21 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+@using Handbook.Models;
+@using Microsoft.AspNetCore.Html;
+@model List<Article>
+
+<div style="text-align: center">
+    <h1 style="color: white; font-size: 40px">По вашему запросу найденно @Model.Count совпадений</h1>
+    @foreach(var x in Model)
+    {
+         <a style="text-decoration: none;" href="/GetArticle?id=@x.ArticleId"><p style="color: white; font-size: 30px">@x.Title</p></a>
+    }
+   
+</div>
+
+
+

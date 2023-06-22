@@ -1,0 +1,24 @@
+﻿
+@using Handbook.Models;
+@using Microsoft.AspNetCore.Html;
+@model List<Chapter>
+@inject ApplicationContext db;
+
+
+<ul class="vertical-list">
+    @foreach (var chapter in Model)
+    {
+            <li>
+        <button>@chapter.Name <i class="fas fa-chevron-down"></i></button>
+        <ul class="sublist">
+                @foreach (var article in db.Catalogs.SelectMany(p => p.chapters).SelectMany(p => p.Articles).Where(x => x.ChapterId == chapter.ChapterId))
+                {
+                  <li><a href="/GetArticle?id=@article.ArticleId">@article.Title</a></li>
+                }
+        </ul>
+      </li>
+    }
+</ul>
+
+
+<script src="/scripts/HorizontalList.js"></script>

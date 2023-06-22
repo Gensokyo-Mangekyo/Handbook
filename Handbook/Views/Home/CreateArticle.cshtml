@@ -1,0 +1,44 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model string
+
+@if (Model is not null)
+{
+    <h1 style="text-align:center; margin-top: 25px; color: red; ">@Model</h1>
+}
+
+<form class="CreateArticle" method="post" action="/Article" >
+    <div class="ClassForm">
+<label>Имя каталога: </label>
+<input type="text" name="CatalogName"/> 
+<p>Эти кнопки что выше форме располагаются называются каталогами</p>
+</div>
+ <div class="ClassForm">
+<label>Имя главы: </label>
+<input type="text" name="ChapterName"/>
+<p>В каталоге располгаются слева кнопки они называются главами </p>
+</div>
+ <div class="ClassForm">
+ <label>Имя названия: </label>
+<input type="text" name="TitleName"/>
+<p>Имя тайтла </p>
+</div>
+ <div class="ClassForm">
+ <label>Секретный пароль</label>
+<input type="password" name="Password"/>
+<p> Header сайта </p>
+</div>
+ <div class="ClassForm">
+<textarea  type="text" id='w4' name="Content" style="height:200px;font-size:14pt;"></textarea>
+</div>
+ <div class="ClassForm">
+<button type="submit">Отправить</button>
+</div>
+</form>
+
+
+
+

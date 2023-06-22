@@ -1,0 +1,18 @@
+﻿.Content {
+    text-align: center;
+}
+
+.Content h1 {
+   color: white;
+   font-size: 30px;
+}
+
+.Content img {
+    max-height: 500px;
+    max-width: 800px;
+}
+
+.Content h2 {
+   color: white;
+   font-size: 20px;
+}
